@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(to left, blue 20%, aqua 90%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.atm_contanier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atm_BOX {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, blue,  purple);
+    height: 30rem;
+    width: 30rem;
+    border-radius: 38px;
+    position: relative;
+}
+
+.atm_input {
+    margin-top: 3rem;
+    height: 6rem;
+    width: 18rem;
+    text-align: center;
+    line-height: 6rem;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+    font-weight: bolder;
+    border-radius: 16px;
+    overflow: hidden;  
+    color: green;
+    resize: none;
+}
+
+.atm_input::placeholder {
+    padding: 2px;
+}
+
+.buttons_container {
+    margin-top: 2rem;
+}
+
+.buttons_Style {
+    display: flex;
+    gap: 32px;
+}
+
+.plusebutton {
+    background-color: greenyellow;
+    border-radius: 22px;
+    height: 80px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.minusebutton {
+    background-color: red;
+    border-radius: 22px;
+    height: 80px;
+    width: 9rem;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.total_info_container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.current_total_info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: yellow;
+    font-size: x-large;
+    margin: 0;
+}
+
+.current_total {
+    display: block;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: greenyellow;
+    margin-top: 10px;
+}
